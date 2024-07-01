@@ -1,0 +1,49 @@
+.project-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.4rem;
+    object-position:50% 50%;
+    object-fit:fill;
+  }
+  .project-card > .header {
+    padding: 2px 15px;
+    padding-top: 6px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.657);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .project-card > .header > div {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .project-card > .header > div > a > img {
+    width: 20px;
+    height: 20px;
+    filter: invert(90%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-card > .header > div > a > img:hover {
+    transform: scale(1.1);
+  }
+  
+  .project-card > .detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .project-card > .detail > .tech {
+    color: var(--highlight);
+  }

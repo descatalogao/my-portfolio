@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Kameron:wght@400..700&family=Unkempt:wght@400;700&display=swap');
+
+:root {
+  --primary-dark: rgb(35, 36, 47);
+  --bg-dark: rgba(255, 213, 175, 0.5);
+  --primary-light: #111111;
+  --bg-light: rgb(209, 204, 233);
+  --highlight: #5165dc;
+  --divider: rgb(164, 164, 164);
+  font-weight: 400;
+  font-synthesis: none;
+  text-align: center;
+}
+
+* {
+  font-family: "Kameron", serif;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right, #ff8e38 -48%,#ffa1a1 300%);
+  color: var(--primary-dark);
+  transition: all 0.5s ease-in-out;
+}
+
+.light {
+  filter: ();
+  background: linear-gradient(to right, #2d2020 0%, #8e3822 90%);
+  color: var(  --bg-light);
+}
+
+a,
+p {
+  font-size: 1.1rem;
+}
+
+h1{
+  padding: 1rem;
+  font-family: "Fontdiner Swanky", sans-serif;
+}
+
+
+header>nav>*{
+  font-family: "Kameron", serif;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+header>nav>ul>li>*{
+  font-family: "Kameron", serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+header>nav>h2{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.588);
+  font-family: "Fontdiner Swanky", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  
+}
+main{
+  margin-bottom: 25px;
+}
+#width{
+  display: inline-block;
+  margin:0 auto;
+  justify-content: center;
+  height: 100vh;
+  width:90%
+
+}
